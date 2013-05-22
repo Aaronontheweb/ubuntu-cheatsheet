@@ -11,7 +11,7 @@ Ubuntu commands for people who don't know Linux
 ## Process Management
 * Kill a process: `kill {pid}`
 * See all running processes: `ps aux`
-* Get PIDs of running processes under a specific name: `ps aux | grep {name}` or `ps aux | grep dse | awk '{print $2}'`
+* Get PIDs of running processes under a specific name: `ps aux | grep {name}` or `ps aux | grep {name} | awk '{print $2}'`
 
 ## Cron Jobs
 * Check existing cron jobs: `crontab -e`
