@@ -28,7 +28,9 @@ Ubuntu commands for people who don't know Linux
 * What IP adress is assiged to me? `ifconfig`
 * What TCP/IP ports are open and what programs are listening on them? `lsof -i -P` (needs to have lsof installed and be run as root)
 * Where do I configure my network interfaces? `vi /etc/network/interfaces` then run `ifdown <interface>` and then `ifup <interface>`
-* What are the details of a specific network interface? `sudo iwlist <interface> scan`
+* What are the details of a specific network interface? `iwlist <interface> scan`
+* Connect to a specific wireless network for a given interface? `iwconfig <interface> essid "<ssid name>"`
+* Get an IP address assigned from a router? `dhclient <interface>`
 
 ## Databases
 * How do I install MySQL? Stab a fork in your eye and install Postgres instead.
