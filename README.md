@@ -21,6 +21,11 @@ Ubuntu commands for people who don't know Linux
 * See all running processes: `ps aux`
 * Get PIDs of running processes under a specific name: `ps aux | grep {name}` or `ps aux | grep {name} | awk '{print $2}'`
 
+## Machine Properties
+* Modify the host name: `sudo nano /etc/hostname`
+* Set a static IP address: `sudo nano /etc/network/interfaces`
+* Modify hosts: `sudo nano /etc/hosts`
+
 ## Cron Jobs
 * Check existing cron jobs: `crontab -e`
 
