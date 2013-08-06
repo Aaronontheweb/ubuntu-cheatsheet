@@ -19,6 +19,9 @@ Ubuntu commands for people who don't know Linux
 * Back up your stuff locally: `rsync {source} {destination}`
 * Back up your stuff to another server: `rsync -avz -e ssh {path} {user}@{host}:{path}`
 
+## File Permissions
+* Make a file executable: 'chmod +x {filename'
+
 ## Process Management
 * Kill a process: `kill {pid}`
 * See all running processes: `ps aux`
