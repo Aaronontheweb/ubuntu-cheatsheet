@@ -29,6 +29,7 @@ Ubuntu commands for people who don't know Linux
 * Append directory to the existing PATH: `export PATH=$PATH:/path/to/binary`
 * Declare a new environment variable: `export {variable}=/path/to/binary`
 * Edit system-wide environment variables: `nano /etc/environment`
+* Create an alias for a command: `nano ~/.bash_aliases` followed by `alias {alias name}='{command}'`
 
 ## Process Management
 * Kill a process: `kill {pid}`
