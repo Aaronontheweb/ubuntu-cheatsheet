@@ -28,7 +28,7 @@ Ubuntu commands for people who don't know Linux
 * Inspect the current PATH variables: `echo $PATH`
 * Append directory to the existing PATH: `export PATH=$PATH:/path/to/binary`
 * Declare a new environment variable: `export {variable}=/path/to/binary`
-* Edit global bash variables: `nano ~/.bash_profile`
+* Edit system-wide environment variables: `nano /etc/environment`
 
 ## Process Management
 * Kill a process: `kill {pid}`
