@@ -13,6 +13,8 @@ Ubuntu commands for people who don't know Linux
 ## File System
 * Create .tar.gz / .tgz files: `tar -czvf {output.tgz} {folder}`
 * Extract .tar.gz / .tgz files: `tar -xzvf {input.tgz} {path}`
+* Create .zip files: `zip -r {output.zip} {folder}`
+* Extract .zip files to directory: `unzip {input.zip} -d {folder}`
 * Watch a log file real-time: `tail -f {file}`
 * Find files containing text: `grep -Rl {search} {path}` or case insensitive `grep -Rli {search} {path}`
 * Download a file from the internet: `wget {url}`
