@@ -24,6 +24,12 @@ Ubuntu commands for people who don't know Linux
 ## File Permissions
 * Make a file executable: `chmod +x {filename}`
 
+## Environment Variables
+* Inspect the current PATH variables: `echo $PATH`
+* Append directory to the existing PATH: `export PATH=$PATH:/path/to/binary`
+* Declare a new environment variable: `export {variable}=/path/to/binary`
+* Edit global bash variables: `nano ~/.bash_profile`
+
 ## Process Management
 * Kill a process: `kill {pid}`
 * See all running processes: `ps aux`
