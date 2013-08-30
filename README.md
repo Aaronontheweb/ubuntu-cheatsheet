@@ -6,6 +6,9 @@ Ubuntu commands for people who don't know Linux
 ## System Management
 * Restart the machine: `sudo shutdown -r now`
 
+## User Management
+* Create a new user: `useradd {username}`
+
 ## Disk Management
 * Checking for disk space on available volumes: `df -h` command
 * Check for size of folders in current working directory: `du -h --max-depth=1`
