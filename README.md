@@ -55,6 +55,7 @@ Ubuntu commands for people who don't know Linux
 * Connect to a specific wireless network for a given interface? `iwconfig <interface> essid "<ssid name>"`
 * Get an IP address assigned from a router? `dhclient <interface>`
 * How do I list all NAT rules? `iptables -L`
+* What are all of the available network devices for this machine? `lspci`
 
 ## Databases
 * How do I install MySQL? Stab a fork in your eye and install Postgres instead.
